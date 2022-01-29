@@ -1,0 +1,10 @@
+A create 
+A add 1
+A add 2
+A add 3
+B create
+B add 2
+A B intersection R
+C create
+A B intersection C
+R show

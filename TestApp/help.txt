@@ -1,0 +1,37 @@
+List of operations:
+
+Binary operations: 
+1. Symmetrical subtraction -> symSubtraction
+2. Union -> union
+3. Intersection -> intersection
+4. Subtraction -> subtraction
+5. Is The Second included in The First -> subset
+
+Syntax of binary operations: 
+Query for 1 - 4:
+<set1> <set2> <operation> <set3>
+Note: set3 - name for a new set
+Result: nothing
+Note: if you want to see a new set, use operation 'show'
+
+Query for 5:
+<set1> <set2> <operation>
+Result:
+true / false
+
+Unary operations:
+1. Print power -> power
+2. Add an element to set -> add
+3. Delete an element from set -> delete
+4. Is an element contained in set -> contain
+5. Create a new set -> create
+6. Destroy a set -> destroy
+7. Print all set's elements -> show 
+
+Syntax of unary operations:
+Query for 1, 5 - 7:
+<set> <operation>
+Query for 2 - 4:
+<set> <operation> <element>
+
+If you want to see the list oh all sets, please, use operation 'all sets list'
